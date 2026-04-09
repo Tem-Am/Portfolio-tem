@@ -8,10 +8,10 @@ const projects = [
     title: "Career Helper",
     description:
       "AI-powered platform that helps students and new graduates discover personalized career paths and relevant local resources based on their interests and skills.",
-    image: {careerImage},
+    image: careerImage,
     tags: ["React", "Node.js", "Express","MongoDB", "MySQL", "Generative AI"],
     status: "Live",
-    link: "#",
+    link: "https://career-coach-nine-sable.vercel.app",
     linkLabel: "View Project",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       "Cybersecurity",
     ],
     status: "Research",
-    link: "#",
+    link: "https://link.springer.com/chapter/10.1007/978-3-031-89063-5_25",
     linkLabel: "Read The Paper",
   },
   {
@@ -127,6 +127,8 @@ export function Projects() {
                 {/* Link */}
                 <a
                   href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-1 text-cyan-400 hover:text-cyan-300 transition-colors text-sm"
                   style={{ fontWeight: 500 }}
                 >
