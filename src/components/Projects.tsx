@@ -66,11 +66,11 @@ export function Projects() {
               user experiences.
             </p>
           </div>
-          <div className="hidden md:flex items-center gap-2">
+          {/* <div className="hidden md:flex items-center gap-2">
             <span className="text-cyan-400 text-xs tracking-widest uppercase">
               31 Projects
             </span>
-          </div>
+          </div> */}
         </div>
 
         {/* Cards grid */}
@@ -142,13 +142,13 @@ export function Projects() {
 
         {/* Bottom CTA */}
         <div className="mt-10 flex justify-end">
-          <a
+          {/* <a
             href="#"
             className="flex items-center gap-2 text-gray-500 hover:text-cyan-400 transition-colors text-sm"
           >
             <ExternalLink className="w-4 h-4" />
             View all archived projects
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
